@@ -11,13 +11,13 @@ if(isset($_POST['submit'])) {
  
  //Email body I will receive
  $message = "Client Name: " . $name . "\n"
- . "Phone Number: " . $phone . "\n\n"
+ . "Phone Number: " . $phone . "\r\n"
  . "Client Message: " . "\n" . $_POST['message'];
  
  //Message for client confirmation
  $message2 = "Dear" . $name . "\n"
- . "Thank you for contacting us. We will get back to you shortly!" . "\n\n"
- . "You submitted the following message: " . "\n" . $_POST['feedback'] . "\n\n"
+ . "Thank you for contacting us. We will get back to you shortly!" . "\r\n"
+ . "You submitted the following message: " . "\n" . $_POST['feedback'] . "\r\n"
  . "Regards," . "\n" . "- EmpireElite";
  
  //Email headers
