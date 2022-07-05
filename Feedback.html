@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img\favicon\favicon.ico.png">
+    <title>feedback</title>
+    <link rel="stylesheet" href="css\css\styles.css">
+     <div class="header"> <h1>FEEDBACK</h1> </div>
+</head>
+<body>
+   <div class="second-container"> 
+     <h2>Contact us today, and get reply with in 24 hours!</h2>
+    <form name="feedback" class="form" style="text-align: center;" action="index.php" method="post" enctype="text/plain"
+     <label for="Your Name:">Your Name:</label><br>  
+     <input type="text" name="name" class="form-control" name="yourName" required placeholder="Your Name" tabindex="1" maxlength="50" autocapitalize="on" autofocus><br>
+     <label for="Phone Number">Phone Number:</label><br>
+         <input type="tel" name="tel" class="form-control" required placeholder="Phone Number"><br>
+     <label for="">Your Email:</label><br>
+     <input type="email" name="email" class="form-control" name="yourEmail" required placeholder="Email" tabindex="2" maxlength="50" autocapitalize="on"><br>
+     <label for="">Feedback:</label><br>
+     <textarea name="Feedback" class="form-control" id="feedback" cols="23" rows="5" required placeholder="Feedback" tabindex="3" maxlength="150" autocapitalize="on"></textarea><br>
+     <p class="success"> <?php echo $success;  ?></p>
+         <p class="failed"> <?php echo $failed;  ?></p>
+     <a href="">
+     <button class="btn-3" name="submit" id="contact-submit" data-submit="....sending">Submit</button>
+    </a>     
+    </form>
+</div>
+<div class="bottom-container">
+  <img class="facebook" src="img\facebook.png" alt="facebook">
+  <a href="https://www.facebook.com/profile.php?id=100056869872049">Facebook</a>
+  <img class="facebook" src="img\phone-call.png" alt="Phone">
+  <a href="tel:09136213422">Phone</a>
+  <img class="facebook" src="img\whatsapp.png" alt="Whatsapp">
+  <a href="https://wa.me/message/W54UOHNCLCOXJ1">Whatsapp</a>
+  <img class="facebook" src="img\email.png" alt="email">
+  <p class="closing">©2022 EmpireElite™.</p>
+</div>
+</body>
+</html>

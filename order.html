@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place An Order</title>
+    <link rel="icon" type="image/x-icon" href="img\favicon\favicon.ico.png"> 
+    <link rel="stylesheet" href="css/css/styles.css">
+</head>
+<body>
+    <div class="header"><h1>PLACE AN ORDER</h1></div>
+    <div class="second-container" style="text-align: center;">
+        <h2>WE'RE ALWAYS READY TO SERVE!</h2> 
+        <form class="form" style="text-align: center;" action="order.php" method="post" enctype="text/plain"
+         <label for="First Name">First Name:</label><br>  
+         <input type="text" name="name" class="form-control" name="FirstName" required placeholder="First Name" tabindex="1" maxlength="50" autocapitalize="on" autofocus size=""><br>
+         <label for="Surname:">Surname:</label><br>  
+         <input type="text" name="surname" class="form-control" name="Surname" id="Surname" required placeholder="Surname" tabindex="2" maxlength="50" autocapitalize="on"><br>
+         <label for="Phone Number">Phone Number:</label><br>
+         <input type="tel" name="tel" class="form-control" id="tel" required placeholder="Phone Number" maxlength="11" minlength="11"><br>
+         <label for="Address:">Address:</label><br>  
+         <input type="text" name="address" class="form-control" id="Address" name="Address:" required placeholder="Address" tabindex="3" maxlength="50" autocapitalize="on"><br>
+         <label for="">Your Email:</label><br>
+         <input type="email" name="email" class="form-control" id="Your Email" placeholder="Your Email" tabindex="4" maxlength="100"><br>
+         <label for="Number of items">No. of items:</label><br>
+         <input type="number" name="items" id="no. of items"><br>
+         <label for="">Commodity Description:</label><br>
+         <textarea name="description" class="form-control" id="description" cols="23" rows="5" maxlength="150" autocapitalize="on"></textarea><br>
+         <label for="Picture of Commodity">Picture of Commodity:</label>
+         <input class="file" name="pic" id="Files" type="file"><br>
+         <label for="Would you like home pickup?(Extra cost):">Would you like home pickup?(Extra cost):</label>
+         <input type="checkbox" name="tick" id="checkbox" ><br>
+         <a href="">
+            <p class="success"> <?php echo $success;  ?></p>
+         <p class="failed"> <?php echo $failed;  ?></p>
+     <a href="">
+     <button class="btn-3" name="submit" id="contact-submit" data-submit="....sending">Submit</button>
+            <button class="btn-3">Submit</button>
+           </a> 
+        </form>
+    </div>
+    <div class="bottom-container">
+        <img class="facebook" src="img\facebook.png" alt="facebook">
+        <a href="https://www.facebook.com/profile.php?id=100056869872049">Facebook</a>
+        <img class="facebook" src="img\phone-call.png" alt="Phone">
+        <a href="tel:09136213422">Phone</a>
+        <img class="facebook" src="img\whatsapp.png" alt="Whatsapp">
+        <a href="https://wa.me/message/W54UOHNCLCOXJ1">Whatsapp</a>
+        <img class="facebook" src="img\email.png" alt="email">
+        <p class="closing">©2022 EmpireElite™.</p>
+      </div>
+</body>
+</html>
