@@ -130,7 +130,7 @@ p{
     border: 2px solid #DFF6FF;
     padding: 20px;
     margin: 20px 100px;
-    height: 100px;
+    height: 50px;
     color: white;
 }
 
@@ -267,20 +267,6 @@ p{
 
 #description{
     resize: none;
-}
-
-.success{
-    color: green;
-    font-weight: 700;
-    padding: 5px;
-    text-align: center;
-}
-
-.failed{
-    color: red;
-    font-weight: 700;
-    padding: 5px;
-    text-align: center;
 }
 
 .closing{
@@ -617,20 +603,6 @@ p{
 
 #description{
     resize: none;
-}
-
-.success{
-    color: green;
-    font-weight: 700;
-    padding: 5px;
-    text-align: center;
-}
-
-.failed{
-    color: red;
-    font-weight: 700;
-    padding: 5px;
-    text-align: center;
 }
 
 .closing{
